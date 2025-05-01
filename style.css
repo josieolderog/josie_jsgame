@@ -10,8 +10,8 @@
     text-transform: uppercase;
     padding: 1rem;
     margin: 0 1rem 1rem 1rem;
-    border-top: 4px solid #333;
-    border-bottom: 4px solid #333;
+    border-top: 4px dotted #333;
+    border-bottom: 4px dotted #333333;
   }
   h3 {
     font-size: 22px;
