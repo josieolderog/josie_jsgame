@@ -13,7 +13,6 @@ function initPick() {
         pick = "img/scissors.svg";
       }
       document.getElementById('oppResult').src = pick;
-      // comparison logic
       if (pick == "img/rock.svg") {
         document.getElementById('result').innerHTML = "It's a Tie";
       } else if (pick == "img/paper.svg") {
@@ -25,7 +24,6 @@ function initPick() {
     genPick();
   }
   function paperPick() {
-
     function genPick() {
       let pick = "img/mystery.svg";
       if (Math.floor(Math.random() * 3) == 2) {
@@ -57,7 +55,6 @@ function initPick() {
         pick = "img/scissors.svg";
       }
       document.getElementById('oppResult').src = pick;
-      // comparison logic
       if (pick == "img/scissors.svg") {
         document.getElementById('result').innerHTML = "It's a Tie";
       } else if (pick == "img/rock.svg") {
