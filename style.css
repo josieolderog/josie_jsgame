@@ -4,6 +4,17 @@
     background-color: #E9E9E9;
     font-size: 16px;
   }
+  html, body, div, section, article, main, table {
+    padding: 0;
+    margin: 0;
+  }
+  *, ::before, ::after {
+    box-sizing: border-box;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
   .title {
     text-align: center;
     background-color: #FAFAFA;
@@ -53,6 +64,7 @@
     opacity: 1;
     border-color: #000;
   }
+ 
   .result-wrapper {
     margin: 1rem;
     border: 4px solid #333;
